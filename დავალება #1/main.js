@@ -9,7 +9,7 @@
 
 // 1 კომენტარები
 
-/
+/*
   // კომენტარები გაფუჭდა თქვენი დავალებაა
   // არასწორად დაწერილი კომენტარი ჩაასწოროთ
   // და ასევე გამოიყენოთ თქვენი კოდის აღსაწერად
@@ -30,6 +30,11 @@
 */
 
 // >>>> კოდი დაწერეთ აქ
+const name = "მაქსიმე";
+const surname = "მაჩაიძე";
+let age = 23;
+const birth = 1999;
+const place = "ჭიათურა";
 
 
 
@@ -43,15 +48,19 @@
 
   წიგნების მაღაზიის მაგალითი:
 
-  const BookName = "ვეფხისტყაოსანი";
-  const AuthrName = "შოთა რუსთაველი";
-  const CreateDate = "13 საუკუნე";
-  let ProductQuant = 124;
-*/
+const BookName = "ვეფხისტყაოსანი";
+const AuthrName = "შოთა რუსთაველი";
+const CreateDate = "13 საუკუნე";
+let ProductQuant = 124;
+* /
 
 
-/ / >>>> კოდი დაწერეთ აქ
+  / / >>>> კოდი დაწერეთ აქ
 
+const ShoeName = "Nike";
+const size = [36, 37, 38, 39, 40, 41, 42, 43]
+const productQuality = "High";
+let productQuantity = 300;
 
 //
 
@@ -66,10 +75,10 @@
 
 
 
-const age = "1";
-const hisName = ["bob"];
-const isHigh = "true";
-const dateOfBirth = "1995";
+const age = 1;
+const hisName = "bob";
+const isHigh = true;
+const dateOfBirth = 1995;
 
 
 
@@ -85,10 +94,13 @@ console.log(typeof dateOfBirth === "number")
 
 
 
-/ აქ უნდა გაიგოთ თქვენი პროდუქტის სიის ტიპი
+  / აქ უნდა გაიგოთ თქვენი პროდუქტის სიის ტიპი
 
 // მაგ: console.log(typeof age)
 
+console.log(typeof hisName);
+console.log(typeof isHigh);
+console.log(typeof dateOfBirth);
 
 
 // ოპერატორები არითმეტიკა
@@ -98,6 +110,9 @@ let num = 5;
 // გამოიყენეთ ყველა ვარიანტი რომლითაც შეგვიძლია ამ ციფრის გაზრდა
 
 // >>> კოდი დაწერეთ აქ
+let num = 5 + 5;
+let num = 5 * 5;
+let num = 5 ** 5;
 
 
 //
@@ -106,10 +121,15 @@ console.log(num)
 
 
 
-// სცადეთ შეკრიბოთ განსხვავებული ტიპის მქონე 
+// სცადეთ შეკრიბოთ განსხვავებული ტიპის მქონე
 // მნიშვნელობები და გაიგოთ შეკრებილი მონაცემების ტიპი
 
 // >>> კოდი დაწერეთ აქ
+let number = 37;
+let varNumber = '25';
 
+console.log(number + +varNumber)
+
+62
 
 //
